@@ -9,14 +9,6 @@ import { UserList } from "./user/UserList";
 import { UserCreate } from "./user/UserCreate";
 import { UserEdit } from "./user/UserEdit";
 import { UserShow } from "./user/UserShow";
-import { DasdaList } from "./dasda/DasdaList";
-import { DasdaCreate } from "./dasda/DasdaCreate";
-import { DasdaEdit } from "./dasda/DasdaEdit";
-import { DasdaShow } from "./dasda/DasdaShow";
-import { SdfghjkList } from "./sdfghjk/SdfghjkList";
-import { SdfghjkCreate } from "./sdfghjk/SdfghjkCreate";
-import { SdfghjkEdit } from "./sdfghjk/SdfghjkEdit";
-import { SdfghjkShow } from "./sdfghjk/SdfghjkShow";
 import { jwtAuthProvider } from "./auth-provider/ra-auth-jwt";
 
 const App = (): React.ReactElement => {
@@ -36,7 +28,7 @@ const App = (): React.ReactElement => {
   return (
     <div className="App">
       <Admin
-        title={"Order Service"}
+        title={"Notification Service"}
         dataProvider={dataProvider}
         authProvider={jwtAuthProvider}
         theme={theme}
@@ -49,20 +41,6 @@ const App = (): React.ReactElement => {
           edit={UserEdit}
           create={UserCreate}
           show={UserShow}
-        />
-        <Resource
-          name="Dasda"
-          list={DasdaList}
-          edit={DasdaEdit}
-          create={DasdaCreate}
-          show={DasdaShow}
-        />
-        <Resource
-          name="Sdfghjk"
-          list={SdfghjkList}
-          edit={SdfghjkEdit}
-          create={SdfghjkCreate}
-          show={SdfghjkShow}
         />
       </Admin>
     </div>

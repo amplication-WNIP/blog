@@ -1,5 +1,5 @@
 {
-  "name": "@order-service/server",
+  "name": "@notification-service/server",
   "private": true,
   "scripts": {
     "start": "nest start",
