@@ -1,6 +1,6 @@
 {
-  "short_name": "Notification Service",
-  "name": "Notification Service",
+  "short_name": "Order Service",
+  "name": "Order Service",
   "icons": [
     {
       "src": "favicon.ico",
