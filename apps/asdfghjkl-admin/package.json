@@ -1,5 +1,5 @@
 {
-  "name": "@notification-service/admin",
+  "name": "@order-service/admin",
   "private": true,
   "dependencies": {
     "@apollo/client": "3.6.9",
